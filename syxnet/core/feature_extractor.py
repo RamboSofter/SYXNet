@@ -6,7 +6,7 @@ import tensorflow.contrib.slim as slim
 from syxnet.core import resnet_v1_beta
 from syxnet.core import xception
 from tensorflow.contrib.slim.nets import resnet_utils
-from nets.mobilenet import mobilenet_v2
+from syxnet.nets.mobilenet import mobilenet_v2
 
 #用于mobileNetV2的默认结束点
 _MOBILENET_V2_FINAL_ENDPOINT = 'layer_18'

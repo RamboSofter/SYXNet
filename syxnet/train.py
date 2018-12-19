@@ -24,7 +24,7 @@ from syxnet import model
 from syxnet.datasets import segmentation_dataset
 from syxnet.utils import input_generator
 from syxnet.utils import train_utils
-from deployment import model_deploy
+from syxnet.deployment import model_deploy
 
 slim = tf.contrib.slim
 
